@@ -18,7 +18,6 @@ MASTODON_LOGIN = Gauge('mastodon_weekly_login', 'Weekly amount of logins')
 MASTODON_STATUSES = Gauge('mastodon_weekly_statuses', 'Weekly amount of statuses')
 MASTODON_REGISTRATIONS = Gauge('mastodon_weekly_registrations', 'Weekly amount of statuses')
 
-# Decorate function with metric.
 def process_instance():
 
 #Instance		
